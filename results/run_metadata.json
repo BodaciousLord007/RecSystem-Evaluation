@@ -1,0 +1,172 @@
+{
+  "config": {
+    "seed": 42,
+    "max_users": 500,
+    "max_items": 2000,
+    "eval_users": 100,
+    "min_ratings": 10,
+    "k": 10,
+    "neighbors": 30,
+    "like_threshold": 4.0,
+    "factors": 24,
+    "epochs": 20
+  },
+  "use_tags": false,
+  "tuned": true,
+  "selection": {
+    "popularity": {
+      "preset": "see source/config.py"
+    },
+    "user_knn": {
+      "neighbors": 10
+    },
+    "item_knn": {
+      "neighbors": 50
+    },
+    "matrix_factorization": {
+      "preset": "see source/config.py"
+    },
+    "decision_tree": {
+      "preset": "see source/config.py"
+    },
+    "naive_bayes": {
+      "preset": "see source/config.py"
+    },
+    "content_knn": {
+      "neighbors": 10
+    }
+  },
+  "data": {
+    "ratings.csv": {
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/ratings.csv",
+      "sha256": "1ee8a97172bd6d97147a30d9cfb3029ac240bd27ba2aa9365981c051c65113f8"
+    },
+    "books.csv": {
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/books.csv",
+      "sha256": "4d21d0e0433128657c752e3a3d0405ac0ec11675d6c70c64cb0abf4ab1acb76a"
+    },
+    "book_tags.csv": {
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/book_tags.csv",
+      "sha256": "8ff2f0659be9ddbe10bf47ba33b5b69024f893f017ac665236f15bc97d862950"
+    },
+    "tags.csv": {
+      "url": "https://raw.githubusercontent.com/zygmuntz/goodbooks-10k/master/tags.csv",
+      "sha256": "87f316957564fa21c316a4f50afc87f07906f478f990eec027aaca00c536c449"
+    }
+  },
+  "test_users": [
+    19,
+    27,
+    30,
+    34,
+    35,
+    38,
+    39,
+    47,
+    53,
+    61,
+    69,
+    70,
+    72,
+    77,
+    82,
+    88,
+    90,
+    98,
+    109,
+    119,
+    122,
+    143,
+    152,
+    153,
+    157,
+    158,
+    165,
+    170,
+    172,
+    174,
+    175,
+    177,
+    189,
+    191,
+    192,
+    194,
+    199,
+    211,
+    212,
+    214,
+    216,
+    219,
+    221,
+    226,
+    234,
+    241,
+    250,
+    264,
+    270,
+    274,
+    278,
+    284,
+    298,
+    304,
+    305,
+    310,
+    311,
+    314,
+    315,
+    318,
+    321,
+    326,
+    327,
+    332,
+    335,
+    340,
+    341,
+    342,
+    344,
+    348,
+    350,
+    352,
+    362,
+    374,
+    375,
+    386,
+    393,
+    396,
+    400,
+    401,
+    403,
+    407,
+    415,
+    422,
+    425,
+    427,
+    432,
+    444,
+    448,
+    452,
+    463,
+    464,
+    468,
+    475,
+    476,
+    481,
+    482,
+    488,
+    490,
+    497
+  ],
+  "split_sizes": {
+    "train": 26453,
+    "validation": 5329,
+    "test": 5329
+  },
+  "python": "3.12.0",
+  "packages": {
+    "numpy": "2.3.4",
+    "pandas": "2.3.3",
+    "scipy": "1.18.1",
+    "scikit-learn": "1.9.1",
+    "matplotlib": "3.10.7"
+  }
+}

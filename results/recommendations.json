@@ -1,0 +1,331 @@
+{
+  "popularity": [
+    {
+      "user": 19,
+      "books": [
+        "To Kill a Mockingbird",
+        "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+        "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+        "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+        "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+        "The Hobbit",
+        "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+        "The Great Gatsby",
+        "The Diary of a Young Girl",
+        "The Book Thief"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "The Hunger Games (The Hunger Games, #1)",
+        "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+        "To Kill a Mockingbird",
+        "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+        "Harry Potter and the Chamber of Secrets (Harry Potter, #2)",
+        "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+        "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+        "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+        "Harry Potter and the Half-Blood Prince (Harry Potter, #6)",
+        "Catching Fire (The Hunger Games, #2)"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "Harry Potter and the Sorcerer's Stone (Harry Potter, #1)",
+        "To Kill a Mockingbird",
+        "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+        "The Hobbit",
+        "The Help",
+        "The Great Gatsby",
+        "The Kite Runner",
+        "Divergent (Divergent, #1)",
+        "1984",
+        "Pride and Prejudice"
+      ]
+    }
+  ],
+  "user_knn": [
+    {
+      "user": 19,
+      "books": [
+        "Harry Potter Boxset (Harry Potter, #1-7)",
+        "Holy Bible: King James Version",
+        "The Master and Margarita",
+        "Love You Forever",
+        "Entwined with You (Crossfire, #3)",
+        "Sh*t My Dad Says",
+        "Flowers in the Attic (Dollanganger, #1)",
+        "Walking Disaster (Beautiful, #2)",
+        "Lover Eternal (Black Dagger Brotherhood, #2)",
+        "A Breath of Snow and Ashes (Outlander, #6)"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "The Power of Habit: Why We Do What We Do in Life and Business",
+        "The Guardian",
+        "David and Goliath: Underdogs, Misfits, and the Art of Battling Giants",
+        "Four: A Divergent Story Collection (Divergent, #0.1 - 0.4)",
+        "SuperFreakonomics: Global Cooling, Patriotic Prostitutes And Why Suicide Bombers Should Buy Life Insurance",
+        "Fables, Vol. 1: Legends in Exile",
+        "The Last Unicorn (The Last Unicorn, #1)",
+        "Being Mortal: Medicine and What Matters in the End",
+        "Gal\u00e1pagos",
+        "If Tomorrow Comes (Tracy Whitney Series, #1)"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "What I Talk About When I Talk About Running",
+        "The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory",
+        "Being Mortal: Medicine and What Matters in the End",
+        "The Last Unicorn (The Last Unicorn, #1)",
+        "NOS4A2",
+        "The Young Elites (The Young Elites, #1)",
+        "Dune Messiah (Dune Chronicles #2)",
+        "The Caves of Steel (Robot #1)",
+        "Gal\u00e1pagos",
+        "Blood Bound (Mercy Thompson, #2)"
+      ]
+    }
+  ],
+  "item_knn": [
+    {
+      "user": 19,
+      "books": [
+        "Along Came a Spider (Alex Cross, #1)",
+        "The Secret (The Secret, #1)",
+        "Who Moved My Cheese?",
+        "Quiet: The Power of Introverts in a World That Can't Stop Talking",
+        "Ways of Seeing",
+        "Holy Bible: King James Version",
+        "In the Woods (Dublin Murder Squad, #1)",
+        "Wizard's First Rule (Sword of Truth, #1)",
+        "Redeeming Love",
+        "The Power of Habit: Why We Do What We Do in Life and Business"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "The Alloy of Law (Mistborn, #4)",
+        "Mostly Harmless (Hitchhiker's Guide to the Galaxy, #5)",
+        "Castle of Wizardry (The Belgariad, #4)",
+        "Children of the Mind (Ender's Saga, #4)",
+        "The Blood of Olympus (The Heroes of Olympus, #5)",
+        "Redwall (Redwall, #1)",
+        "The Last Battle (Chronicles of Narnia, #7)",
+        "The Exorcist",
+        "High Fidelity",
+        "The Moon is a Harsh Mistress"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "Death Note, Vol. 1: Boredom (Death Note, #1)",
+        "The Restaurant at the End of the Universe (Hitchhiker's Guide, #2)",
+        "Brown Bear, Brown Bear, What Do You See?",
+        "Chicka Chicka Boom Boom",
+        "The Girl with All the Gifts",
+        "Career of Evil (Cormoran Strike, #3)",
+        "Notes from a Small Island",
+        "The Golem and the Jinni (The Golem and the Jinni, #1)",
+        "The Shoemaker's Wife",
+        "Open"
+      ]
+    }
+  ],
+  "matrix_factorization": [
+    {
+      "user": 19,
+      "books": [
+        "The Fellowship of the Ring (The Lord of the Rings, #1)",
+        "Being Mortal: Medicine and What Matters in the End",
+        "The Complete Persepolis",
+        "The Return of the King (The Lord of the Rings, #3)",
+        "The Hiding Place: The Triumphant True Story of Corrie Ten Boom",
+        "Magician: Master (The Riftwar Saga, #2)",
+        "Harry Potter Boxset (Harry Potter, #1-7)",
+        "Matilda",
+        "The Lord of the Rings (The Lord of the Rings, #1-3)",
+        "Lone Survivor: The Eyewitness Account of Operation Redwing and the Lost Heroes of SEAL Team 10"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "Harry Potter Boxset (Harry Potter, #1-7)",
+        "Survivor",
+        "Lolita",
+        "Being Mortal: Medicine and What Matters in the End",
+        "The Mists of Avalon (Avalon, #1)",
+        "The Complete Fairy Tales",
+        "Heaven is for Real: A Little Boy's Astounding Story of His Trip to Heaven and Back",
+        "The Eternity Code (Artemis Fowl, #3)",
+        "A Court of Mist and Fury (A Court of Thorns and Roses, #2)",
+        "Princess Academy (Princess Academy, #1)"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "Naked",
+        "A Light in the Attic",
+        "The Importance of Being Earnest",
+        "The Lovely Bones",
+        "Eleanor & Park",
+        "The Remains of the Day",
+        "The Goose Girl (The Books of Bayern, #1)",
+        "Cloud Atlas",
+        "Batman: The Killing Joke",
+        "Six of Crows (Six of Crows, #1)"
+      ]
+    }
+  ],
+  "decision_tree": [
+    {
+      "user": 19,
+      "books": [
+        "Twilight (Twilight, #1)",
+        "The Hobbit",
+        "Angels & Demons  (Robert Langdon, #1)",
+        "1984",
+        "The Diary of a Young Girl",
+        "Harry Potter and the Prisoner of Azkaban (Harry Potter, #3)",
+        "Little Women (Little Women, #1)",
+        "Life of Pi",
+        "Fahrenheit 451",
+        "Eclipse (Twilight, #3)"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "Pride and Prejudice",
+        "The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)",
+        "Wuthering Heights",
+        "The Chronicles of Narnia (Chronicles of Narnia, #1-7)",
+        "The Wonderful Wizard of Oz (Oz, #1)",
+        "Prince Caspian (Chronicles of Narnia, #2)",
+        "The Screwtape Letters",
+        "The Call of the Wild",
+        "The Tell-Tale Heart and Other Writings",
+        "The Three Musketeers"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "The Hobbit",
+        "Brave New World",
+        "The Grapes of Wrath",
+        "How to Win Friends and Influence People",
+        "The Good Earth (House of Earth, #1)",
+        "Their Eyes Were Watching God",
+        "Madeline",
+        "Think and Grow Rich: The Landmark Bestseller - Now Revised and Updated for the 21st Century",
+        "As I Lay Dying",
+        "Anthem"
+      ]
+    }
+  ],
+  "naive_bayes": [
+    {
+      "user": 19,
+      "books": [
+        "A Storm of Swords: Steel and Snow (A Song of Ice and Fire, #3: Part 1 of 2)",
+        "A Storm of Swords: Blood and Gold (A Song of Ice and Fire, #3: Part 2 of 2)",
+        "A Clash of Kings  (A Song of Ice and Fire, #2)",
+        "City of Glass (The Mortal Instruments, #3)",
+        "Falling Up",
+        "Oh, The Places You'll Go!",
+        "Harry Potter and the Goblet of Fire (Harry Potter, #4)",
+        "Harry Potter and the Order of the Phoenix (Harry Potter, #5)",
+        "Harry Potter and the Deathly Hallows (Harry Potter, #7)",
+        "Harry Potter and the Half-Blood Prince (Harry Potter, #6)"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "The Complete Anne of Green Gables Boxed Set (Anne of Green Gables, #1-8)",
+        "The Chronicles of Narnia (Chronicles of Narnia, #1-7)",
+        "The Little House Collection (Little House, #1-9)",
+        "The Lion, the Witch, and the Wardrobe (Chronicles of Narnia, #1)",
+        "The Last Battle (Chronicles of Narnia, #7)",
+        "Mere Christianity",
+        "Prince Caspian (Chronicles of Narnia, #2)",
+        "Pride and Prejudice",
+        "The Three Musketeers",
+        "Northanger Abbey"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "Death on the Nile (Hercule Poirot, #17)",
+        "Murder at the Vicarage (Miss Marple, #1)",
+        "On the Banks of Plum Creek  (Little House, #4)",
+        "The Grapes of Wrath",
+        "Madeline",
+        "The Joy of Cooking",
+        "Little House on the Prairie (Little House, #2)",
+        "Little House in the Big Woods (Little House, #1)",
+        "The Story of Ferdinand",
+        "Nausea"
+      ]
+    }
+  ],
+  "content_knn": [
+    {
+      "user": 19,
+      "books": [
+        "A Christmas Carol",
+        "She's Come Undone",
+        "Where the Red Fern Grows",
+        "Island of the Blue Dolphins (Island of the Blue Dolphins, #1)",
+        "The Tell-Tale Heart and Other Writings",
+        "The Three Musketeers",
+        "The Andromeda Strain",
+        "Mrs. Frisby and the Rats of NIMH (Rats of NIMH, #1)",
+        "One Fish, Two Fish, Red Fish, Blue Fish",
+        "Curious George"
+      ]
+    },
+    {
+      "user": 27,
+      "books": [
+        "The Three Musketeers",
+        "Before I Go to Sleep",
+        "The Kitchen House",
+        "Easy (Contours of the Heart, #1)",
+        "Crown of Midnight (Throne of Glass, #2)",
+        "Fifty Shades Trilogy (Fifty Shades, #1-3)",
+        "Inferno (The Divine Comedy #1)",
+        "The Secret Keeper",
+        "Reached (Matched, #3)",
+        "Warm Bodies (Warm Bodies, #1)"
+      ]
+    },
+    {
+      "user": 30,
+      "books": [
+        "On the Banks of Plum Creek  (Little House, #4)",
+        "Madeline",
+        "The Joy of Cooking",
+        "Little House in the Big Woods (Little House, #1)",
+        "The Grapes of Wrath",
+        "Nausea",
+        "The Story of Ferdinand",
+        "Brave New World / Brave New World Revisited",
+        "Brave New World",
+        "Death on the Nile (Hercule Poirot, #17)"
+      ]
+    }
+  ]
+}

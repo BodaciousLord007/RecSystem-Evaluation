@@ -1,0 +1,10 @@
+__pycache__/
+.pytest_cache/
+.ipynb_checkpoints/
+data/raw/*.csv
+data/raw/*.part
+data/processed/
+results/
+goodbooks_project.zip
+experiment_results.zip
+
