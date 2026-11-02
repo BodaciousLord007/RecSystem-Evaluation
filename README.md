@@ -5,13 +5,67 @@ This project compares six lecture-based algorithms and a popularity baseline on
 separate file under `algorithms/`. The shared experiment script prepares data,
 trains models, evaluates recommendations, and saves tables and figures.
 
-## Run locally
+## Clone and run
 
-Use Python 3.10 or newer, from the project directory:
+Requirements: Git, Python 3.10 or newer, and an internet connection for the first
+dataset download.
+
+1. Clone the repository and open the project directory:
+
+   ```sh
+   git clone https://github.com/BodaciousLord007/RecSystem-Evaluation.git
+   cd RecSystem-Evaluation
+   ```
+
+2. Create a virtual environment:
+
+   ```sh
+   python -m venv .venv
+   ```
+
+3. Activate the environment using the command for your terminal:
+
+   **Windows PowerShell:**
+
+   ```powershell
+   .\.venv\Scripts\Activate.ps1
+   ```
+
+   **Windows Command Prompt:**
+
+   ```bat
+   .venv\Scripts\activate.bat
+   ```
+
+   **macOS / Linux:**
+
+   ```sh
+   source .venv/bin/activate
+   ```
+
+   On macOS/Linux, use `python3` to create the environment if `python` is unavailable.
+   If PowerShell blocks activation, activation can be skipped by using
+   `.\.venv\Scripts\python.exe` in place of `python` in the following commands.
+
+4. Install the dependencies:
+
+   ```sh
+   python -m pip install -r requirements.txt
+   ```
+
+5. Run all algorithms with validation-based neighbourhood selection:
+
+   ```sh
+   python run_experiments.py --tune
+   ```
+
+6. Open `results/metrics.csv` for the comparison table and
+   `results/comparison.png` for the chart. Sample recommendations are saved in
+   `results/recommendations.json`.
+
+The automated checks can be run separately:
 
 ```sh
-python -m pip install -r requirements.txt
-python run_experiments.py
 python -m pytest -q
 ```
 
